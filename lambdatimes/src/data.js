@@ -1,3 +1,5 @@
+import { tsPropertySignature } from "@babel/types";
+
 /* Do not change anything in this file until you are completed with the assignment 
    and have moved onto the stretch goals. */
 
@@ -9,6 +11,7 @@ export const cardData = [
     tab: "javascript",
     img: "./assets/sir.jpg",
     author: "SIR RUFF'N'STUFF"
+  
   },
   {
     headline: "Type Coercion: Why Does NaN !== NaN? and Other Strange Occurences",
